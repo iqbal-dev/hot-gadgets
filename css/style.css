@@ -1,9 +1,16 @@
 .container{
     margin-bottom: 50px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     padding-top: 20px;
 }
+
+
 .menu li{
     padding-left: 50px;
 }
@@ -13,6 +20,18 @@ header{
 .carousel-indicators li{
     background-color: #ff9c35;
 }
+.icon{
+    background-color: #ff9c35;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+.icon-control-left, .icon-control-right{
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .buy-now{
     background-color: black;
     color: white;
@@ -20,12 +39,17 @@ header{
     border-radius: 10px;
     border: 1px solid #111;
 }
+
+#Mobile a,#Laptop a{
+    color: #ff9c35;
+    font-weight: 600;
+}
 .card-buy{
     background-color: #fff;
     border: none;
 }
 .card-buy .buy-now{
-    max-width: 130px;
+    max-width: 150px;
     margin-left: 50%;
     transform: translateX(-50%);
     margin-bottom: 10px;
@@ -34,6 +58,18 @@ header{
     border: none;
     box-shadow: 0px 0px 5px 5px #faf7f7;
 }
-.product-section h3{
 
+.img{
+    height: 100%;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.heading span{
+    height: 6px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background: #ff9c35;
 }
